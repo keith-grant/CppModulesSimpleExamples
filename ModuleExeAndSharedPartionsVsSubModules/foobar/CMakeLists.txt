@@ -17,7 +17,7 @@ target_sources(
     PUBLIC
     FILE_SET "CXX_MODULES"
     FILES
-    "Module.ixx" "Foo.ixx" "Bar.ixx" 
+    "Module.ixx" "Foo.ixx" "Bar.ixx" "huh.ixx"
 )
 
 # Generate a header conatining an export MACRO called FOOBAR_EXPORT

@@ -13,6 +13,6 @@ Foo::~Foo() {
 }
 
 void Foo::print() {
-    std::cout << "Foo" << std::endl;
+    std::cout << "Foo";
 }
 

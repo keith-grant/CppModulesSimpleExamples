@@ -10,4 +10,5 @@ public:
     ~Buzz();
 
     void print();
+    void printFizzBuzz();
 };

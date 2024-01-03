@@ -4,6 +4,8 @@ module;
 
 module foobar.Bar;
 
+import foobar.Foo;
+
 Bar::Bar() {
 
 }
@@ -13,5 +15,12 @@ Bar::~Bar() {
 }
 
 void Bar::print() {
-    std::cout << "Bar" << std::endl;
+    std::cout << "Bar";
 }
+
+void Bar::printFooBar() {
+    Foo foo;
+    foo.print();
+    print();
+}
+

@@ -10,4 +10,5 @@ public:
     ~Bar();
 
     void print();
+    void printFooBar();
 };
