@@ -1,8 +1,8 @@
 #pragma once
 
-#include "shared_export.h"
+#include "foobar_export.h"
 
- class SHARED_EXPORT Foo{
+ class FOOBAR_EXPORT Foo{
 
 public:
     Foo();

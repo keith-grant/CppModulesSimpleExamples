@@ -1,3 +1,7 @@
+module;
+
+#include <iostream>
+
 export module Foo;
 
 export class Foo {
