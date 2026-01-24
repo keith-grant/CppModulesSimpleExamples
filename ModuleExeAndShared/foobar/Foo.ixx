@@ -1,14 +1,20 @@
 module;
 
 #include "foobar_export.h"
-
+#include <string>
+#include <iostream>
 export module Foo;
 
-export class FOOBAR_EXPORT Foo {
+export template <typename T>
+class Foo {
 
 public:
-    Foo();
-    ~Foo();
+    Foo() = default;
+    ~Foo() = default;
 
-    void print();
+    void print() {
+        std::cout << value.print() << std::endl;
+    };
+
+    T value;
 };

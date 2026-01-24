@@ -1,6 +1,7 @@
 module;
 
 #include "foobar_export.h"
+#include <string>
 
 export module Bar;
 
@@ -9,5 +10,5 @@ public:
     Bar();
     ~Bar();
 
-    void print();
+    std::string print();
 };

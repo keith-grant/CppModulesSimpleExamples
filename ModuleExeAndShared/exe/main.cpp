@@ -5,7 +5,7 @@ import Bar;
 
 int main()
 {
-    Foo foo;
+    Foo<Bar> foo;
     Bar bar;
     foo.print();
     bar.print();

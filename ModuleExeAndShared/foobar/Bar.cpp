@@ -12,6 +12,6 @@ Bar::~Bar() {
 
 }
 
-void Bar::print() {
-    std::cout << "Bar" << std::endl;
+std::string Bar::print() {
+    return "Bar";
 }
