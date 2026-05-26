@@ -1,11 +1,15 @@
 ﻿#include <iostream>
 
-import foobar.Foo;
-import foobar.Bar;
-import foobar.huh;
+//import foobar.Foo;
+//import foobar.Bar;
+//import foobar.huh;
+import foobar; // Intellisense doesn't like this, but it works
 
-//import foobar; // Intellisense doesn't like this, but it works
-
+// Can't import just fizz or buzz, because they're in the same module
+//import fizzbuzz.Fizz;
+//import fizzbuzz.Buzz;
+//import fizzbuzz:Fizz
+//import fizzbuzz:Buzz;
 import fizzbuzz;
 
 int main()
